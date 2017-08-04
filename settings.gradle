@@ -1,1 +1,1 @@
-include ':app', ':bottom-navigation-bar', ':Transferee'
+include ':app', ':bottom-navigation-bar'

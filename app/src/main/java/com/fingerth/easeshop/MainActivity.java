@@ -11,7 +11,6 @@ import com.ashokvarma.bottomnavigation.BottomNavigationBar;
 import com.ashokvarma.bottomnavigation.BottomNavigationItem;
 import com.ashokvarma.bottomnavigation.ShapeBadgeItem;
 import com.ashokvarma.bottomnavigation.TextBadgeItem;
-import com.fingerth.easeshop.trans.GlideNoThumActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -89,8 +88,4 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationB
 
     }
 
-    @OnClick(R.id.btn_glide_no_thum)
-    public void onViewClicked() {
-        startActivity(new Intent(this, GlideNoThumActivity.class));
-    }
 }

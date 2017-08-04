@@ -5,13 +5,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.fingerth.easeshop.MainActivity">
-    <Button
-        android:id="@+id/btn_glide_no_thum"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Glide测试（无缩略图）"
-        android:textAllCaps="false" />
-
 
     <TextView
         android:id="@+id/tv"
